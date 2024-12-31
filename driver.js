@@ -27,7 +27,7 @@ const fav = {
 };
 
 function getSpeedMult(zone = curTown) {
-    let speedMult = 100;
+    let speedMult = 10;
 
     // Yin and Yang
 	speedMult *= getYinYangBonus("YinYang");
