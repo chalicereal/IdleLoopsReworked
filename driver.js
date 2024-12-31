@@ -1,7 +1,7 @@
 "use strict";
 
 // eslint-disable-next-line prefer-const
-let gameSpeed = 1;
+let gameSpeed = 10;
 let baseManaPerSecond = 100;
 
 const halfDayMs = 1000*60*60*12;
@@ -27,7 +27,7 @@ const fav = {
 };
 
 function getSpeedMult(zone = curTown) {
-    let speedMult = 5;
+    let speedMult = 10;
 
     // Yin and Yang
 	speedMult *= getYinYangBonus("YinYang");
